@@ -39,5 +39,8 @@
 		{
 			"text": "Write in English. Be concise and imperative."
 		}
-	]
+	],
+	"latex-workshop.latex.autoBuild.run": "onSave",
+	"latex-workshop.view.pdf.viewer": "tab",
+	"latex-workshop.latex.path": "/Library/TeX/texbin"
 }
