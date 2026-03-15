@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"playwright": {
+			"command": "/Users/kodai/.asdf/shims/npx",
+			"args": [
+				"@playwright/mcp@latest"
+			],
+			"type": "stdio"
+		}
+	},
+	"inputs": []
+}

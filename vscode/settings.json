@@ -1,41 +1,39 @@
 {
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "terminal.integrated.defaultProfile.osx": "fish",
-  "terminal.integrated.profiles.osx": {
-    "fish": {
-      "path": "/opt/homebrew/bin/fish",
-      "args": [
-        "-l"
-      ]
-    }
-  },
-  "terminal.integrated.env.osx": {
-    "PATH": "${env:HOME}/.asdf/shims:${env:PATH}"
-  },
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": true,
-    "markdown": false,
-    "scminput": false
-  },
-  "projectManager.git.baseFolders": [
-    "/Users/kodai/dev"
-  ],
-  "json.schemaDownload.trustedDomains": {
-    "https://schemastore.azurewebsites.net/": true,
-    "https://raw.githubusercontent.com/microsoft/vscode/": true,
-    "https://raw.githubusercontent.com/devcontainers/spec/": true,
-    "https://www.schemastore.org/": true,
-    "https://json.schemastore.org/": true,
-    "https://json-schema.org/": true,
-    "https://developer.microsoft.com/json-schemas/": true,
-    "https://biomejs.dev": true
-  },
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  "chat.viewSessions.orientation": "stacked"
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"terminal.integrated.defaultProfile.osx": "fish",
+	"terminal.integrated.profiles.osx": {
+		"fish": {
+			"path": "/opt/homebrew/bin/fish",
+			"args": ["-l"]
+		}
+	},
+	"terminal.integrated.env.osx": {
+		"PATH": "${env:HOME}/.asdf/shims:${env:PATH}"
+	},
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": false,
+		"scminput": false
+	},
+	"projectManager.git.baseFolders": ["/Users/kodai/dev"],
+	"json.schemaDownload.trustedDomains": {
+		"https://schemastore.azurewebsites.net/": true,
+		"https://raw.githubusercontent.com/microsoft/vscode/": true,
+		"https://raw.githubusercontent.com/devcontainers/spec/": true,
+		"https://www.schemastore.org/": true,
+		"https://json.schemastore.org/": true,
+		"https://json-schema.org/": true,
+		"https://developer.microsoft.com/json-schemas/": true,
+		"https://biomejs.dev": true
+	},
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"chat.viewSessions.orientation": "stacked",
+	"chat.mcp.serverSampling": {},
+	"security.workspace.trust.untrustedFiles": "open"
 }

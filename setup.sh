@@ -121,6 +121,10 @@ fi
   link "$DOTFILES/vscode/settings.json" \
     "$HOME/Library/Application Support/Code/User/settings.json"
 
+[ -f "$DOTFILES/vscode/mcp.json" ] && \
+  link "$DOTFILES/vscode/mcp.json" \
+    "$HOME/Library/Application Support/Code/User/mcp.json"
+
 # ──────────────────────────────────────────
 # 5. ランタイム（asdf）
 # ──────────────────────────────────────────
