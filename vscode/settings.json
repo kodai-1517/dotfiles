@@ -34,6 +34,10 @@
 	"git.enableSmartCommit": true,
 	"git.confirmSync": false,
 	"chat.viewSessions.orientation": "stacked",
-	"chat.mcp.serverSampling": {},
-	"security.workspace.trust.untrustedFiles": "open"
+	"security.workspace.trust.untrustedFiles": "open",
+	"github.copilot.chat.commitMessageGeneration.instructions": [
+		{
+			"text": "Write in English. Be concise and imperative."
+		}
+	]
 }
