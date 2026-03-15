@@ -1,0 +1,4 @@
+.env
+*.secret
+.dotfiles_backup/
+.DS_Store

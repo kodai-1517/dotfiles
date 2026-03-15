@@ -1,0 +1,22 @@
+# プロンプトの改行（長いパスでも見やすくなる）
+add_newline = true
+
+# ディレクトリ表示
+[directory]
+truncation_length = 3
+
+# Gitブランチ
+[git_branch]
+symbol = " "
+
+# Python
+[python]
+symbol = " "
+
+# Node.js
+[nodejs]
+symbol = " "
+
+# 実行時間（1秒以上かかったコマンドに表示）
+[cmd_duration]
+min_time = 1_000

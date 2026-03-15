@@ -1,0 +1,7 @@
+[user]
+    name = Kodai Matsudaira
+    email = kodai.matsudaira@gmail.com
+[core]
+    editor = code --wait
+[pull]
+    rebase = false

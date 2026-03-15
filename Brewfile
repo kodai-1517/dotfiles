@@ -1,0 +1,17 @@
+# CLI tools
+brew "git"
+brew "gh"
+brew "fish"
+brew "starship"
+brew "asdf"
+brew "biome"
+
+# Apps
+cask "ghostty"
+cask "visual-studio-code"
+cask "obsidian"
+cask "google-chrome"
+cask "google-drive"
+cask "docker-desktop"
+cask "zotero"
+cask "slack"

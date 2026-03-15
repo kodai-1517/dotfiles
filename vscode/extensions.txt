@@ -1,0 +1,4 @@
+github.copilot-chat
+anthropic.claude-code
+alefragnani.project-manager
+biomejs.biome
