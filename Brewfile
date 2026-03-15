@@ -5,6 +5,8 @@ brew "fish"
 brew "starship"
 brew "asdf"
 brew "biome"
+brew "pnpm"
+brew "uv"
 
 # Apps
 cask "ghostty"

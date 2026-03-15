@@ -87,4 +87,5 @@ git push
 
 - `code` コマンドが見つからない: VS Code の Shell Command を有効化
 - fish が見つからない: `brew install fish` 後に `./setup.sh` を再実行
+- `pnpm` / `uv` が見つからない: `./setup.sh` を再実行して新しいターミナルを開く
 - 以前の設定へ戻したい: `~/.dotfiles_backup` から復元
