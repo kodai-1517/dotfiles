@@ -4,3 +4,4 @@ alefragnani.project-manager
 biomejs.biome
 bierner.markdown-mermaid
 james-yu.latex-workshop
+davidanson.vscode-markdownlint
