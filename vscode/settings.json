@@ -1,47 +1,51 @@
 {
-	"editor.formatOnSave": true,
-	"editor.tabSize": 2,
-	"editor.insertSpaces": true,
-	"files.trimTrailingWhitespace": true,
-	"files.insertFinalNewline": true,
-	"terminal.integrated.defaultProfile.osx": "fish",
-	"terminal.integrated.profiles.osx": {
-		"fish": {
-			"path": "/opt/homebrew/bin/fish",
-			"args": ["-l"]
-		}
-	},
-	"terminal.integrated.env.osx": {
-		"PATH": "${env:HOME}/.asdf/shims:${env:PATH}"
-	},
-	"github.copilot.enable": {
-		"*": true,
-		"plaintext": true,
-		"markdown": false,
-		"scminput": false
-	},
-	"projectManager.git.baseFolders": ["/Users/kodai/dev"],
-	"json.schemaDownload.trustedDomains": {
-		"https://schemastore.azurewebsites.net/": true,
-		"https://raw.githubusercontent.com/microsoft/vscode/": true,
-		"https://raw.githubusercontent.com/devcontainers/spec/": true,
-		"https://www.schemastore.org/": true,
-		"https://json.schemastore.org/": true,
-		"https://json-schema.org/": true,
-		"https://developer.microsoft.com/json-schemas/": true,
-		"https://biomejs.dev": true
-	},
-	"git.enableSmartCommit": true,
-	"git.confirmSync": false,
-	"chat.viewSessions.orientation": "stacked",
-	"security.workspace.trust.untrustedFiles": "open",
-	"github.copilot.chat.commitMessageGeneration.instructions": [
-		{
-			"text": "Write in English. Be concise and imperative."
-		}
-	],
-	"latex-workshop.latex.autoBuild.run": "onSave",
-	"latex-workshop.view.pdf.viewer": "tab",
-	"latex-workshop.latex.path": "/Library/TeX/texbin",
-	"chat.editing.confirmEditRequestRetry": false
+    "chat.editing.confirmEditRequestRetry": false,
+    "chat.viewSessions.orientation": "stacked",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Write in English. Be concise and imperative."
+        }
+    ],
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": false,
+        "plaintext": true,
+        "scminput": false
+    },
+    "json.schemaDownload.trustedDomains": {
+        "https://biomejs.dev": true,
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    },
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.path": "/Library/TeX/texbin",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "projectManager.git.baseFolders": [
+        "/Users/kodai/dev"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "terminal.integrated.env.osx": {
+        "PATH": "${env:HOME}/.asdf/shims:${env:PATH}"
+    },
+    "terminal.integrated.profiles.osx": {
+        "fish": {
+            "args": [
+                "-l"
+            ],
+            "path": "/opt/homebrew/bin/fish"
+        }
+    }
 }
