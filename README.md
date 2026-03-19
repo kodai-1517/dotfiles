@@ -29,6 +29,14 @@ cd ~/dotfiles
 gh auth login
 ```
 
+```bash
+aws configure
+# AWS Access Key ID
+# AWS Secret Access Key
+# Default region name (例: ap-northeast-1)
+# Default output format (例: json)
+```
+
 - Obsidian の vault を指定
 - 必要なら VS Code で `Shell Command: Install 'code' command in PATH` を実行
 

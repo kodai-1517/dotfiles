@@ -7,6 +7,7 @@ brew "asdf"
 brew "biome"
 brew "pnpm"
 brew "uv"
+brew "awscli"
 
 # Apps
 cask "ghostty"

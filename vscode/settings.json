@@ -42,5 +42,6 @@
 	],
 	"latex-workshop.latex.autoBuild.run": "onSave",
 	"latex-workshop.view.pdf.viewer": "tab",
-	"latex-workshop.latex.path": "/Library/TeX/texbin"
+	"latex-workshop.latex.path": "/Library/TeX/texbin",
+	"chat.editing.confirmEditRequestRetry": false
 }
