@@ -7,3 +7,4 @@ james-yu.latex-workshop
 davidanson.vscode-markdownlint
 richie5um2.vscode-sort-json
 bradlc.vscode-tailwindcss
+ms-vscode.live-server
