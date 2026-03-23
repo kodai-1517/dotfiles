@@ -9,3 +9,4 @@ richie5um2.vscode-sort-json
 bradlc.vscode-tailwindcss
 ms-vscode.live-server
 ms-python.python
+mechatroner.rainbow-csv
