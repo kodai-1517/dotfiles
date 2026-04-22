@@ -10,3 +10,4 @@ bradlc.vscode-tailwindcss
 ms-vscode.live-server
 ms-python.python
 mechatroner.rainbow-csv
+github.vscode-pull-request-github
